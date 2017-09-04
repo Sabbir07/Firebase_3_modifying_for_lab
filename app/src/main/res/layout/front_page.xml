@@ -4,7 +4,8 @@
               android:layout_height="match_parent"
               android:gravity="center"
               android:orientation="vertical"
-              android:weightSum="1">
+              android:weightSum="1"
+                android:background="@color/colorBlack">
 
     <!--<View
         android:id="@+id/view"
@@ -18,8 +19,11 @@
         android:layout_height="0dp"
         android:layout_centerHorizontal="true"
         android:layout_weight="0.25"
+        android:background="@color/colorFrontButton"
         android:text="All Students"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="5dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,7 +39,12 @@
             android:layout_centerHorizontal="true"
             android:layout_weight="0.125"
             android:text="First Year"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorFrontButton"
+            android:textColor="@color/colorPrimary"/>
 
 
         <Button
@@ -46,7 +55,12 @@
             android:layout_centerHorizontal="true"
             android:layout_weight="0.125"
             android:text="Second Year"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorFrontButton"
+            android:textColor="@color/colorPrimary"/>
 
     </LinearLayout>
 
@@ -64,7 +78,12 @@
             android:layout_centerHorizontal="true"
             android:layout_weight="0.125"
             android:text="Third Year"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorFrontButton"
+            android:textColor="@color/colorPrimary"/>
 
         <Button
             android:id="@+id/fourth"
@@ -74,7 +93,12 @@
             android:layout_centerHorizontal="true"
             android:layout_weight="0.125"
             android:text="Fourth Year"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorFrontButton"
+            android:textColor="@color/colorPrimary"/>
 
     </LinearLayout>
 
@@ -87,6 +111,11 @@
         android:layout_centerHorizontal="true"
         android:layout_weight="0.25"
         android:text="Masters"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorFrontButton"
+        android:textColor="@color/colorPrimary"/>
 
 </LinearLayout>
