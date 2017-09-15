@@ -8,13 +8,13 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 //This class only sets the value... and gets the value
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Movie {
+public class InformationClass {
     private String year;
     private String description;
 
     //Alt+insert key is the hotkey for constructor generator
 
-    public Movie() {
+    public InformationClass() {
     }
 
     public String getYear() {

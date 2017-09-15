@@ -82,12 +82,12 @@ public class ForAllStudents extends AppCompatActivity {
 
     //ADD DATA
     private void addData(String year, String desc) {
-        //Movie m= new Movie();
-        Movie m = new Movie();
+        //InformationClass m= new InformationClass();
+        InformationClass m = new InformationClass();
         m.setYear(year);
         m.setDescription(desc);
 
-        fire.child("Movie").push().setValue(m);
+        fire.child("InformationClass").push().setValue(m);
     }
 
 
@@ -127,9 +127,9 @@ public class ForAllStudents extends AppCompatActivity {
         descriptions.clear();
 
         for (DataSnapshot data : ds.getChildren()) {
-            Movie m = new Movie();
-            //m.setYear(data.getValue(Movie.class).getYear());
-            m.setDescription(data.getValue(Movie.class).getDescription());
+            InformationClass m = new InformationClass();
+            //m.setYear(data.getValue(InformationClass.class).getYear());
+            m.setDescription(data.getValue(InformationClass.class).getDescription());
 
             //year.add(m.getYear());
             descriptions.add(m.getDescription());

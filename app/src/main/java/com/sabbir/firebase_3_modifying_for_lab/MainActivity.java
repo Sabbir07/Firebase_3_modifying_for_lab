@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, ForFirstYear.class);
+                view.startAnimation(shake);
                 startActivity(i);
             }
         });
@@ -79,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, ForSecondYear.class);
+                view.startAnimation(shake);
                 startActivity(i);
             }
         });
@@ -89,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, ForThirdYear.class);
+                view.startAnimation(shake);
                 startActivity(i);
             }
         });
@@ -99,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, ForFourthYear.class);
+                view.startAnimation(shake);
                 startActivity(i);
             }
         });
@@ -109,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, ForMasters.class);
+                view.startAnimation(shake);
                 startActivity(i);
             }
         });

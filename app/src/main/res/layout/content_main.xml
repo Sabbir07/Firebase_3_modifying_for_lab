@@ -19,6 +19,8 @@
         android:scrollbars="none"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="1.0sp"
         android:background="@drawable/l_button_design_3_map">
     </ListView>
 </RelativeLayout>
